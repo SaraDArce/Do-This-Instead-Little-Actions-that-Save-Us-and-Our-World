@@ -5,15 +5,17 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ui": "browser-sync start --config bs-config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^3.0.2",
     "nodemon": "^3.0.3"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
   }
 }
